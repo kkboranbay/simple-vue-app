@@ -16,7 +16,7 @@
     },
     created: function() {
       axios
-        .get('http://api.sa.homework:9000/version')
+        .get('http://api.sa.homework:80/version')
         .then(res => {
           this.version_data = res.data;
         })

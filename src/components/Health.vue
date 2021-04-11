@@ -16,7 +16,7 @@
     },
     created: function() {
       axios
-        .get('http://api.sa.homework:9000/health')
+        .get('http://api.sa.homework:80/health')
         .then(res => {
           this.health_data = res.data;
         })

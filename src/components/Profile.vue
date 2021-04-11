@@ -21,7 +21,7 @@
     },
     created: function() {
       axios
-        .get('http://api.sa.homework:9000/profile')
+        .get('http://api.sa.homework:80/profile')
         .then(res => {
           this.profile_data = res.data;
         })

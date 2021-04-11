@@ -31,7 +31,7 @@
     },
     created: function() {
       axios
-        .get('http://api.sa.homework:9000/students')
+        .get('http://api.sa.homework:80/students')
         .then(res => {
           this.users = res.data;
         })

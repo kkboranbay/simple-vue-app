@@ -20,7 +20,7 @@
     },
     created: function() {
       axios
-        .get('http://api.sa.homework:9000/about')
+        .get('http://api.sa.homework:80/about')
         .then(res => {
           this.about_data = res.data;
         })
